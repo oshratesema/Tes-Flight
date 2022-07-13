@@ -1,0 +1,43 @@
+.nav-container {
+  background-color: aliceblue;
+}
+
+.nav-container .logo img {
+  width: 180px;
+}
+
+.nav-container .facebook-btn {
+  background-color: #325295;
+}
+
+.header-container {
+  background-image: url(image/pexels-photo-2032332.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header-container .search-box {
+  background-color: rgba(251, 245, 245, 0.5);
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.header-container .search-box input {
+  outline: 0;
+  border-top: 3px;
+  border-right: 3px;
+  border-left: 3px;
+}
+
+.header-container .countries-option-design {
+  background-color: rgba(251, 245, 245, 0.329);
+  height: 190px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.top-footer {
+  background-color: aliceblue;
+}
+/*# sourceMappingURL=style.css.map */

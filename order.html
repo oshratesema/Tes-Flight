@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="SCSS/contact.css" />
+</head>
+
+<body>
+  <!--header-container-->
+  <header class="header-container overflow-hidden">
+    <!--navbar-container-->
+    <nav class="navbar nav-container navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <div class="logo ms-4">
+          <img src="SCSS/image/2022-07-06__5_-removebg-preview.png" alt="" />
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center me-5" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-dark me-5" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark me-5" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark me-5" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end-navbar-container-->
+    <div class="header-container container-fluid p-0">
+      <div class="header-design container justify-content-center">
+        <div class="sides-of-header row">
+          <!--left-side-header-of-all-the-page-->
+          <div class="left-side-header col-12 col-md-8 mb-5">
+            <!--header-section-one-->
+            <div class="header-section-one mt-5 text-white">
+              <div class="d-flex ">
+                <div class="left-part col-md-9 col-12 d-flex">
+                  <div class="flight-details">
+                    <div class="d-flex align-items-center">
+                      <h3 id="fromCity">buenos aires</h3>
+                      <i class="fa-solid fa-arrow-right-long mx-2"></i>
+                      <h3 id="toCity">ile de france</h3>
+                    </div>
+                    <ul class="list-container list-unstyled ">
+                      <li class="mb-3 fs-5">round trip,economy,1 passenger</li>
+                      <li class="dateFrom fs-5">depart:aug 15,2019</li>
+                      <li class="dateTo fs-5">depart:aug 16,2019</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end-header-section-one-->
+            <div class="header-section-two mt-5 fl row ">
+              <!--header-section-two-->
+              <h5 class="text-white">Enter Passenger Details</h5>
+              <p class="fs-5 text-white">passenger 1</p>
+              <div class="left-section">
+                <div class="top-details row justify-content-between">
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">male</option>
+                      <option value="2">woman</option>
+                    </select>
+                    <label for="floatingSelect" class="mt-1">Gender</label>
+                  </div>
+                </div>
+                <div class="middle-details row">
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">First Name</label>
+                  </div>
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Last Name</label>
+                  </div>
+                </div>
+                <div class="bottom-details row">
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Passport Serial</label>
+                  </div>
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">male</option>
+                      <option value="2">woman</option>
+                    </select>
+                    <label for="floatingSelect">Citizenship</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end-header-section-two-->
+            <!--header-section-three-->
+            <div class="header-section-three mt-5 fl row">
+              <h5 class="text-white">Enter Billing Information</h5>
+              <p class="fs-5 text-white">Billing Address</p>
+              <div class="left-section">
+                <div class="top-details row">
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Street (line 1)</label>
+                  </div>
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Street (line 2)</label>
+                  </div>
+                </div>
+                <div class="middle-details row">
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Postal Code</label>
+                  </div>
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">City</label>
+                  </div>
+                </div>
+                <div class="bottom-details row">
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">male</option>
+                      <option value="2">woman</option>
+                    </select>
+                    <label for="floatingSelect">State/Region</label>
+                  </div>
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">male</option>
+                      <option value="2">woman</option>
+                    </select>
+                    <label for="floatingSelect">Select Country</label>
+                  </div>
+                </div>
+                <p class="fs-5 text-white">Card Details</p>
+                <div class="top-details row">
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Name On Card</label>
+                  </div>
+                  <div class="form-floating mb-3 col-12 col-md-6">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Credit/Debit Card Number </label>
+                  </div>
+                  <div class="bottom-details row ms-3">
+                    <div class="left-bottom row col-12 col-md-6 justify-content-between">
+                      <select class="col-md-2 col-12 col-md-3 mb-3 rounded-1" id="month" name="month">
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3" selected="">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                      </select>
+                      <select class="col-md-2 col-12 col-md-3 mb-3" id="Year" name="Year">
+                        <option value="1">2001</option>
+                        <option value="2">2000</option>
+                        <option value="3" selected="">1999</option>
+                        <option value="4">1998</option>
+                        <option value="5">1997</option>
+                        <option value="6">1996</option>
+                        <option value="7">1995</option>
+                        <option value="8">1994</option>
+                        <option value="9">1993</option>
+                        <option value="10">1992</option>
+                        <option value="11">1991</option>
+                        <option value="12">1990</option>
+                      </select>
+                      <div class="form-floating mb-3 col-md-5 col-12">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Security Code </label>
+                      </div>
+                    </div>
+                    <div class="right-bottom col-12 col-md-6 row mt-2 my-3 ms-md-3">
+                      <div class="col-2">
+                        <img class="col-12" src="SCSS/image/Visa-electronic.png" style="height: 40px;" alt="">
+                      </div>
+                      <div class="col-2">
+                        <img src="SCSS/image/Visa.png" style="width: 100%; height: 40px;" alt="">
+                      </div>
+                      <div class="col-2">
+                        <img src="SCSS/image/mastercard.png" style="width: 100%; height: 40px;" alt="">
+                      </div>
+                      <div class="col-2">
+                        <img src="SCSS/image/maestro.png" style="width: 100%; height: 40px;" alt="">
+                      </div>
+                      <div class="col-2">
+                        <img src="SCSS/image/pay_pal.jpg" style="width: 100%; height: 40px;" alt="">
+                      </div>
+                      <div class="col-2">
+                        <img src="SCSS/image/1200px-American_Express_logo_(2018).svg.png"
+                          style="width: 100%; height: 40px;" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end-header-section-three-->
+            <!--header-section-four-->
+            <div class="header-section-four mt-5">
+              <div class="top-total row">
+                <div class="left-total-para col-12 col-md-8">
+                  <h3 class="text-white">Total</h3>
+                  <p class="text-white">By clicking book now button you agree with terms and
+                    conditionals and money back guarantee.
+                    Thank you for trusting our service.</p>
+                </div>
+                <div class="right-total-prics col-12 col-md-4 ">
+                  <h1 class="price text-white display-4 text-start mt-2 fw-bolder">
+                    $1907.68
+                  </h1>
+                </div>
+              </div>
+              <div class="button-total mt-4"></div>
+              <button class="bookNowBtn col-12 shadow border-0 p-2 rounded-1 bg-dark text-white">BOOK NOW</button>
+            </div>
+            <!--end-header-section-four-->
+          </div>
+          <!--end-left-side-of-header-->
+          <!--right-side-header-->
+          <div class="right-side-header col-12 col-md-4 mb-5">
+            <!--information-boxes-->
+            <div class="information-boxes container">
+              <!--box-one-->
+              <div class="box-one border border-secondary bg-light mt-5 container">
+                <div class="text-aria my-4 text-secondary ">
+                  <h4 class="mb-4 text-dark">Booking Summary</h4>
+                  <p> Round Trip, Economy, 1 passenger</p>
+                  <p class="dateFrom"> Depart: Aug 15, 2019</p>
+                  <p class="dateTo"> Return: Aug 16, 2019</p>
+                </div>
+              </div>
+              <!--end-box-one-->
+              <!--box-two-->
+              <div class="box-two border border-secondary bg-light mt-5 container">
+                <div class="text-aria text-secondary row mt-3 ">
+                  <h4 class="mb-4 text-dark">Charges</h4>
+                  <div class="left-part col-8">
+                    <p>1 passenger</p>
+                    <p>Economy</p>
+                  </div>
+                  <div class="right-part col-4">
+                    <p class="price">$1907.68</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="text-aria text-secondary bg-light row ">
+                  <div class="left-part fw-bold col-8">
+                    <p>Total</p>
+                  </div>
+                  <div class="right-part col-4">
+                    <p class="price">$1907.68</p>
+                  </div>
+                </div>
+              </div>
+              <!--box-three-->
+              <div class="box-three border border-secondary bg-light mt-5 container">
+                <div class="text-aria my-4 mx-2">
+                  <h6><i class="fa-solid fa-check"></i> Manage your bookings!</h6>
+                  <p class="text-secondary ms-3">You'r in control of you'r booking- bo registration require.</p>
+                  <h6><i class="fa-solid fa-check"></i> Customer support avilable 24/7 worldwide! </h6>
+                  <p class="text-secondary ms-3">Website and Customer support in english and 41 other languages.</p>
+                </div>
+              </div>
+              <!--end-box-three-->
+              <!--box-four-for-space-->
+              <div class="box-four mt-5 container d-none d-md-flex" style="height: 320px;"></div>
+              <!--end-box-four-->
+              <!--box-five-->
+              <div class="box-five border border-secondary bg-light mt-5 container">
+                <h6><i class="fa-solid fa-check"></i> Customer support avilable 24/7 worldwide! </h6>
+                <p class="text-secondary ms-3">Website and Customer support in english and 41 other languages.</p>
+              </div>
+              <!--end-box-five-->
+            </div>
+            <!--end-information-boxes-->
+          </div>
+          <!--end-right-side-->
+        </div>
+      </div>
+  </header>
+  <!--end-header-container-->
+  <!--fotter-container-->
+  <footer class="fotter-container text-center text-lg-start text-dark bg-light overflow-hidden">
+    <!--top-footer-->
+    <div class="top-fotter row m-0 m-md-4 ">
+      <!--TesFlights-section-one--->
+      <div class="tesFlight-section col-12 col-md-6 text-secondary">
+        <img src="SCSS/image/2022-07-06__5_-removebg-preview.png" class="mb-2" style="width: 180px;" alt="">
+        <p>Want to hear about our special prices before everyone else?</p>
+        <input class="emailInput bg-transparent fs-5 fst-italic" id="toInput" type="text" placeholder="Email" />
+        <i id="sendEmailBtn" class="fa-solid fa-circle-check text-success fs-3"></i>
+        <p id="adminMsg" class="fw-bold text-dark"></p>
+      </div>
+      <!--explore-section-two-->
+      <div class="explor-section col-12 col-md-2 ">
+        <h5 class="text-uppercase">Explore</h5>
+        <ul class="list-unstyled ">
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Countries</a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Regions</a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none"> Cities</a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">District</a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Airports</a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Hotels</a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Places of interest</a>
+          </li>
+        </ul>
+      </div>
+      <!--book-section-four-->
+      <div class="travel-seection col-12 col-md-2">
+        <h5 class="text-uppercase">ABOUT</h5>
+        <ul class="list-unstyled ">
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Tes Flights company</a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Tes Flights news</a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Our history</a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Jobs</a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Tes Flights Corporate</a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Tes Flights Cargo </a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">financial reports</a>
+          </li>
+        </ul>
+      </div>
+      <div class="book-section col-12 col-md-2 ">
+        <h5 class="text-uppercase">Cancelling a transaction</h5>
+        <ul class="list-unstyled ">
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Flight ticket cancellation information</a>
+          </li>
+          <li>
+            <a href="#!" class="text-secondary text-decoration-none">Flight ticket cancellation (Consumer Protection
+              Law)
+            </a>
+          </li>
+        </ul>
+      </div>
+  </footer>
+  <footer class="bottom-footer bg-dark d-flex justify-content-center">
+    <p class="text-secondary">Copyright © 2018 <span class="text-white">Tes Flights</span> .All rights reserved</p>
+  </footer>
+</body>
+<!-- <script type="module" src="JS/app.js"></script> -->
+<script type="module" src="JS/order.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>

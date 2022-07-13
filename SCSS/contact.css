@@ -1,0 +1,19 @@
+.nav-container {
+  background-color: aliceblue;
+}
+
+.nav-container .logo img {
+  width: 180px;
+}
+
+.nav-container .facebook-btn {
+  background-color: #325295;
+}
+
+.header-container {
+  background-image: url(image/pexels-photo-2073873.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*# sourceMappingURL=contact.css.map */

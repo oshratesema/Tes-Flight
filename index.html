@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="SCSS/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+</head>
+<body>
+  <!--nav-container-->
+  <nav class="navbar nav-container navbar-expand-lg bg-light ">
+    <div class="container-fluid">
+      <div class="logo ms-4">
+        <img src="SCSS/image/2022-07-06__5_-removebg-preview.png" alt="" />
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center me-5" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-dark me-5" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark me-5" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark me-5" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--end nav-container-->
+  <div class="header-container d-flex flex-column">
+    <!--search-flights-box-->
+    <div class="search-box d-flex flex-column col-md-7 col-11 container justify-content-center align-items-center rounded-bottom p-5">
+      <div class="input-top-aria d-flex flex-column">
+        <div class="mb-4 d-flex flex-md-row flex-column justify-content-center">
+          <input class="bg-transparent fs-5 fst-italic" id="fromInput" type="text" placeholder="FROM:" />
+          <div class="text-center mt-4">
+            <i class="fa-solid fa-arrow-right-arrow-left mx-3 justify-content-center text-center"></i>
+          </div>
+          <input class="bg-transparent fs-5 fst-italic" id="toInput" type="text" placeholder="TO:" />
+        </div>
+        <input id="ReleaseDate" class="bg-transparent mb-3 fs-5 fst-italic" type="date" placeholder="Release Date:" />
+        <input id="ReturnDate" class="bg-transparent fs-5 fst-italic" type="date" placeholder="Return Date:"/>
+      </div>
+      <div>
+        <button class="border-0 rounded-2 mt-5 p-2" id="search-btn">
+          Search Your Next Flight
+        </button>
+      </div>
+      <div id="flights-Option" class="flights-Option d-flex flex-column col-12 align-items-center text-center">
+      </div>
+    </div>
+    <!--countries-option--->
+  <div class="countries-option mt-3 mb-5 d-flex align-items-center flex-column">
+  <div class="search-countries col-md-4 align-items-center">
+    <div class="input-group">
+      <input type="text" class="country-input form-control text-center fs-6" placeholder="Look for your next destination" aria-label="Username" aria-describedby="basic-addon1">
+      <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass-location fs-4"></i></span>
+    </div>    
+  </div>
+  <div class="countries-option-design d-flex col-10 py-3 my-2 justify-content-center rounded-2 overflow-auto">
+    <div class="box-aria d-flex container flex-wrap justify-content-between"></div>
+  </div>
+  </div>
+  </div> 
+  <!-- end-header-container -->
+  <!-- footer-container -->
+  <footer class="fotter-container text-center text-lg-start text-dark bg-light overflow-hidden">
+    <!--top-footer-->
+      <div class="top-fotter row m-0 m-md-4 ">
+    <!--TesFlights-section-one--->
+        <div class="tesFlight-section col-12 col-md-6 text-secondary">
+          <img src="SCSS/image/2022-07-06__5_-removebg-preview.png" class="mb-2" style="width: 180px;" alt="">
+          <p>Want to hear about our special prices before everyone else?</p>
+          <input class="emailInput bg-transparent fs-5 fst-italic" id="toInput" type="text" placeholder="Email" />
+          <i id="sendEmailBtn" class="fa-solid fa-circle-check text-success fs-3"></i>
+          <p id="adminMsg" class="fw-bold text-dark"></p>
+        </div>
+    <!--explore-section-two-->
+    <div class="explor-section col-12 col-md-2 ">
+      <h5 class="text-uppercase">Explore</h5>
+      <ul class="list-unstyled ">
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">Countries</a>
+        </li>
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">Regions</a>
+        </li>
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none"> Cities</a>
+        </li>
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">Districs</a>
+        </li>
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">Airports</a>
+        </li>
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">Hotels</a>
+        </li>
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">Places of interest</a>
+        </li>
+      </ul>
+    </div>
+    <!--book-section-four-->
+    <div class="travel-seection col-12 col-md-2">
+      <h5 class="text-uppercase">ABOUT</h5>
+      <ul class="list-unstyled ">
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">Tes Flights company</a>
+        </li>
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">Tes Flights news</a>
+        </li>
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">Our history</a>
+        </li>
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">Jobs</a>
+        </li>
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">Tes Flights Corporate</a>
+        </li>
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">Tes Flights Cargo </a>
+        </li>
+        <li>
+          <a href="#!" class="text-secondary text-decoration-none">financial reports</a>
+        </li>
+      </ul>
+    </div>
+        <div class="book-section col-12 col-md-2 ">
+          <h5 class="text-uppercase">Cancelling a transaction</h5>
+          <ul class="list-unstyled ">
+            <li>
+              <a href="#!" class="text-secondary text-decoration-none">Flight ticket cancellation information</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary text-decoration-none">Flight ticket cancellation (Consumer Protection Law)
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <footer class="bottom-footer bg-dark d-flex justify-content-center">
+            <p class="text-secondary">Copyright © 2018 <span class="text-white">Tes Flights</span> .All rights reserved</p>
+      </footer>
+      <!-- end-footer-container -->
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script type="module" src="JS/app.js"></script>
+
+</html>
